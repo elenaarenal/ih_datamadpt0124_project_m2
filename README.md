@@ -1,8 +1,7 @@
-<p align="left"><img src="https://cdn-images-1.medium.com/max/184/1*2GDcaeYIx_bQAZLxWM4PsQ@2x.png"></p>
 
-# __ih_datamadpt0124_project_m2__
 
-![Image](https://github.com/dataptmad0124/ih_datamadpt0124_project_m2/blob/main/images/visuals.jpg)
+# Project Module 2
+
 
 Climatic change is one of the biggest challenges that human race will face in the near future. The following dashboard will show you the anañysis of the last 10 years with regards to gas emissions (methane, CO2, fluorinated gases and NO2), climatic policies & initiatives adopted by states, global-warming related catastrophes around the world.
 
@@ -60,35 +59,34 @@ As data sources, we have used several csv with the abovementioned information:
 
 
 
-## __Challenge 1: BI Report/Dashboard__
+## __How to navegate it__
 
-BI Reports and Dashboards are powerful tools for communicating important information __at-a-glance__. The goal of this challenge is to build a BI Report/Dashboard using a dataset of your choice. Bear in mind the __purpose__ of the report and build a __normalized__ model that fits your visualization requeriments and interactivity performance.
+Open tableau public through the following route:
 
-You may use either __Tableau__ or __Power BI__ or __Streamlit__ as your main tool for creating your reporting app. Also you will need to create an ETL process in which you may need to include __data ingestion__, __data transformation__ and __model optimization__ processes.
+https://public.tableau.com/app/profile/elena.arenal/viz/Project2_17152762649850/Top10
 
-> __Tip:__ you should first consider which data and which indicators should be put on the BI Report/Dashboard. Then, decompose the key indicators from multiple dimensions. 
+The document contains 14 sheets and *5 dashboards to navegate* :
 
-<p align="center"><img src="https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif"></p>
+    -Total gases emitted by continent & year
 
+    -Ranking of most and less polluting countries in the world by total gas emission
 
-A BI Report/Dashboard is not exactly a sequential set of descriptive charts. Instead, a BI Report/Dashboard should be __a single interactive interface built around a specific objetive and which components are logically arranged in order to provide data relevant insights effectively__.
+    -Methane (CH4) emission worldwide
 
+    -Maximum temperatures worldwide by continent and year (ºC)
 
+    -Percentage of Natural disasters & initiatives by continent
 
 ---
+## **Data Obtained:**
 
+You can navegate through the sheets through filters & animations. Select the parameters you are interested in (e.g: total gas emission worldwide in 2016)
 
+![image.png](attachment:image.png)
+![image-2.png](attachment:image-2.png)
 
-## **References:**
+## **Limitations and improvements to be made :**
 
-- [Visual Analysis Best Practices](https://github.com/ih-datapt-mad/ih_datamadpt0923_project_m2/blob/main/images/visual-analysis-guidebook.pdf)
-
-- [Financial Times Visual Vocabulary](https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary)
-
-- [Tableau](https://github.com/dataptmad0124/lessons/blob/main/m2/_20240420_bi_tableau.md)
-
-- [Power BI](https://github.com/dataptmad0124/lessons/blob/main/m2/_20240424_bi_pbi.md)
-
-- [Streamlit](https://github.com/dataptmad0124/ec_we_love_streamlit)
-
-- [Data Ingestion](https://github.com/dataptmad0124/lessons/blob/main/m2/_20240427_bi_data_ingestion.ipynb)
+Cross with real data
+More detailed datasets
+More years to analyse: climat change is a long term issue
